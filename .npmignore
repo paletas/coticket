@@ -1,0 +1,24 @@
+# Exclude Go source files from npm package
+*.go
+go.mod
+go.sum
+
+# Exclude development files
+.github/
+.git/
+.gitignore
+internal/
+cmd/
+data/
+
+# Exclude test files
+*_test.go
+coverage.*
+
+# Keep only distribution files
+!bin/
+!scripts/download-binary.js
+!LICENSE
+!README.md
+!VERSION
+!package.json

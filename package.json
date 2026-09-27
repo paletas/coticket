@@ -1,0 +1,51 @@
+{
+  "name": "coticket-mcp",
+  "version": "0.1.0",
+  "description": "MCP-first ticket lifecycle service for AI agents using SQLite for durable work item storage",
+  "main": "bin/coticket-mcp",
+  "bin": {
+    "coticket-mcp": "./bin/coticket-mcp"
+  },
+  "scripts": {
+    "postinstall": "node scripts/download-binary.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paletas/coticket.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "agent",
+    "ticket",
+    "lifecycle",
+    "sqlite",
+    "workflow"
+  ],
+  "author": "paletas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paletas/coticket/issues"
+  },
+  "homepage": "https://github.com/paletas/coticket#readme",
+  "files": [
+    "bin/",
+    "scripts/download-binary.js",
+    "LICENSE",
+    "README.md",
+    "VERSION"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
