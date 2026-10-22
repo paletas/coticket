@@ -1,3 +1,8 @@
+---
+name: coticket-ticket-lifecycle
+description: "Use CoTicket as a durable work queue so AI agents can create, claim, execute, and complete tickets across sessions. Use when turning a plan or backlog item into tickets, picking up the next unowned ticket, or updating ticket status."
+---
+
 # CoTicket Ticket Lifecycle Skill
 
 ## Purpose
